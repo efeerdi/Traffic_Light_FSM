@@ -1,0 +1,19 @@
+cat <<EOF > .gitignore
+db/
+incremental_db/
+output_files/
+simulation/
+*.rpt
+*.summary
+*.sof
+*.pof
+*.jdi
+*.done
+*.qws
+*.flock
+*.txt
+*.vcd
+*.do
+
+!*.sv
+EOF
